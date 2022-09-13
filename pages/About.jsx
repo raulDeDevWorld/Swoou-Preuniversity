@@ -5,7 +5,7 @@ import Link from 'next/link'
 import style from '../styles/About.module.css'
 
 function About() {
-    return (
+    return ( 
         <PageLayout>
             <div className={style.container}>
             <img src="logo-hazlo-simple.svg" className={style.logo} alt="logo" />
