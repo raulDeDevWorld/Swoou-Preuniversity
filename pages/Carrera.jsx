@@ -12,7 +12,7 @@ import { firebaseConfig } from '../firebase/config.js'
 
 
 function Carrera() {
-
+    
     const router = useRouter()
     const { userDB, uniData, setUniversityData, setUserData, setUserSuccess } = useUser()
     const [career, setCareer] = useState(null)
